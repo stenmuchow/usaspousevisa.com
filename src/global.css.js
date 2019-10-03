@@ -48,9 +48,6 @@ export default createGlobalStyle`
     font-variant-numeric: proportional-nums;
   }
 
-  ol, ul {
-    list-style: none;
-  }
 
   blockquote, q {
     quotes: none;
@@ -90,5 +87,9 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+
+  ul {
+    margin:15px;
   }
 `;

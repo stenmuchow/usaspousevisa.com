@@ -2,18 +2,10 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
+    "title": "I-130 Petition for alien relative",
+    "copy": "Lets get started!",
+    "url": "/steps/one",
     "image": "../images/gallery/react-context.jpg"
-  },
-  {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
-  },
-  {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+  }
+ ]
 }

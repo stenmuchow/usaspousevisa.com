@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteTitle: `USA Spouse Visa`,
+  siteTitleShort: `USA Spouse Visa`,
+  siteDescription: `A journey through a visa process (2019)`,
+  siteUrl: `https://usaspousevisa.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
