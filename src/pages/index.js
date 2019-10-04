@@ -15,8 +15,8 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    {/* <div style={{ height: '50vh' }} />
+    <IOExample /> */}
   </Layout>
 );
 

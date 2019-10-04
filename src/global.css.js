@@ -65,7 +65,16 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    display: block;
+    cursor: pointer;
+    color: black;
+    text-decoration:none;
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   pre {

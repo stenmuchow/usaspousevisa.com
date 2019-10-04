@@ -26,4 +26,3 @@ So what do you need to submit?
 
 ## Form G-1145, E-notification when USCIS has received your application
   - [Form G-1145](https://www.uscis.gov/system/files_force/files/form/g-1145.pdf)
-
