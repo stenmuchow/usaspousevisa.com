@@ -40,5 +40,16 @@ module.exports = {
         cookieDomain: 'usaspousevisa.com',
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'USA Spouse Visa',
+        short_name: 'USA Spouse Visa',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+      },
+    },
   ],
 };
