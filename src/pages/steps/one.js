@@ -10,6 +10,7 @@ const StepOne = ({ data }) => (
     <Head pageTitle={data.stepOneJson.title} />
     <Box>
       <div
+        className="markdown-body"
         dangerouslySetInnerHTML={{
           __html: data.stepOneJson.content.childMarkdownRemark.html,
         }}

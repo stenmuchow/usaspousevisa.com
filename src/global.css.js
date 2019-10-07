@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
+import githubStyles from 'github-markdown-css';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -65,7 +66,6 @@ export default createGlobalStyle`
   }
 
   a {
-    display: block;
     cursor: pointer;
     color: black;
     text-decoration:none;
@@ -101,4 +101,7 @@ export default createGlobalStyle`
   ul {
     margin:15px;
   }
+
+  ${githubStyles}
+
 `;
