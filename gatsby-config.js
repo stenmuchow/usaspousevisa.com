@@ -7,6 +7,17 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'USA Spouse Visa',
+        short_name: 'USA Spouse Visa',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
@@ -41,17 +52,6 @@ module.exports = {
       options: {
         trackingId: 'UA-149368306-1',
         head: true,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'USA Spouse Visa',
-        short_name: 'USA Spouse Visa',
-        start_url: '/',
-        background_color: '#f7f0eb',
-        theme_color: '#a2466c',
-        display: 'standalone',
       },
     },
   ],
