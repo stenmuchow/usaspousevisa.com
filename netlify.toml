@@ -1,2 +1,2 @@
-[context.branch-deploy.environment]
+[context.production]
   NODE_ENV = "production"
