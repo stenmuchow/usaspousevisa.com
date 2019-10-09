@@ -5,28 +5,29 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
 
-const About = ({ data }) => (
+const StepTwo = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
+    <Head pageTitle={data.stepTwoJson.title} />
     <Box>
       <div
+        className="markdown-body"
         dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
+          __html: data.stepTwoJson.content.childMarkdownRemark.html,
         }}
       />
     </Box>
   </Layout>
 );
 
-About.propTypes = {
+StepTwo.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default About;
+export default StepTwo;
 
 export const query = graphql`
-  query AboutQuery {
-    aboutJson {
+  query StepsTwoQuery {
+    stepTwoJson {
       title
       content {
         childMarkdownRemark {

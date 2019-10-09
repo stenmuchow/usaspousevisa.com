@@ -1,10 +1,18 @@
 {
   "title": "Home",
   "content": "intro.md",
-  "gallery": [{
-    "title": "I-130 Petition for alien relative",
-    "copy": "Lets get started!",
-    "url": "/steps/one",
-    "image": "../images/gallery/visa.jpg"
-  }]
+  "gallery": [
+    {
+      "title": "I-130 Petition for alien relative",
+      "copy": "Step 1",
+      "url": "/steps/one",
+      "image": "../images/gallery/visa.jpg"
+    },
+    {
+      "title": "DS-260 Immigrant Visa Electronic Application",
+      "copy": "Step 2",
+      "url": "/steps/two",
+      "image": "../images/gallery/ds260.png"
+    }
+  ]
 }
