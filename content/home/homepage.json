@@ -13,6 +13,12 @@
       "copy": "Step 2",
       "url": "/steps/two",
       "image": "../images/gallery/ds260.png"
+    },
+    {
+      "title": "The Interview",
+      "copy": "Step 3",
+      "url": "/steps/three",
+      "image": "../images/gallery/interview.png"
     }
   ]
 }
